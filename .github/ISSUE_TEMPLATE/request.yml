@@ -4,11 +4,37 @@ labels: ["request"]
 body:
   - type: dropdown
     attributes:
-      description: "Select type of request against the service"
-      label: "Request"
+      description: Select type of request against the service
+      label: Request
       options:
-        - "Addition"
-        - "Update"
-        - "Deletion"
+        - Addition
+        - Update
+        - Deletion
     validations:
       required: true
+  - type: dropdown
+    attributes:
+      description: Select status of did:web support on service
+      label: Status
+      options:
+        - Working
+        - Partially Working
+        - Broken
+    validations:
+      required: true
+  - type: input
+    attributes:
+      description: Input the main URL to the webapp or website relating to the service
+      label: URL
+    validations:
+      required: true
+  - type: input
+    attributes:
+      description: Input the URL to the source code of service (e.g. a link to a GitHub repository)
+      label: Source URL
+  - type: textarea
+    attributes:
+      description: |
+          Input any other notes (e.g. links to related tickets, posts on Bluesky, etc.)
+          If selected "Partial" in "Status", input caveats here too
+      label: Notes
