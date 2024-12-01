@@ -1,10 +1,11 @@
 name: Request
 description: Request a service to be added/updated
+labels: ["request"]
 body:
   - type: dropdown
-    id: issue_type
-    description: "Selection request type"
-    options:
-      - "Addition"
-      - "Update"
-      - "Deletion"
+    attributes:
+      label: "Selection request type"
+      options:
+        - "Addition"
+        - "Update"
+        - "Deletion"
