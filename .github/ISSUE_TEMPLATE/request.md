@@ -1,5 +1,5 @@
 name: Request
-about: Request a service to be added/updated
+description: Request a service to be added/updated
 body:
   - type: dropdown
     id: issue_type
