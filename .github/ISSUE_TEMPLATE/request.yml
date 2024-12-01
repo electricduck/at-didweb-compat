@@ -4,8 +4,11 @@ labels: ["request"]
 body:
   - type: dropdown
     attributes:
-      label: "Selection request type"
+      description: "Select type of request against the service"
+      label: "Request"
       options:
         - "Addition"
         - "Update"
         - "Deletion"
+    validations:
+      required: true
