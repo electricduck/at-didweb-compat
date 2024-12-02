@@ -18,4 +18,5 @@
 | **[PinkSea](https://pinksea.art)** | 🔴 No | | |
 | **[Skirkle](https://skircle.me)** | 🔴 No | | |
 | **[SkyFeed](https://skyfeed.app)** | 🟢 Yes | [GitHub:skyfeed-dev/app](https://github.com/skyfeed-dev/app)
+| **[Skylights](https://skylights.me)** | 🔴 No | |
 | **[TOKIMEKI](https://tokimeki.blue/)** | 🟢 Yes | [GitHub:spuithori/tokimekibluesky](https://github.com/spuithori/tokimekibluesky) | |
